@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="auto-service-annotations-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/auto-service-annotations-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/byte-buddy-1.17.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

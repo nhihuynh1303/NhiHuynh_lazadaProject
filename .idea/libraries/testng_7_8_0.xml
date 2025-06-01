@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="testng-7.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/testng-7.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/poi-scratchpad-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/poi-ooxml-lite-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/poi-ooxml-full-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/poi-ooxml-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/poi-excelant-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/poi-examples-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/poi-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/commons-io-2.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/xmlbeans-5.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

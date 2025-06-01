@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lazada">
+    <test verbose="2" preserve-order="true"
+          name="Run On Firefox browser">
+        <parameter name="browser" value="Firefox"></parameter>
+        <classes>
+            <class name="lazada_testcase_Search">
+            </class>
+        </classes>
+    </test>
+
+
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="Run On Chrome browser">-->
+<!--        <parameter name="browser" value="Chrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="lazada_testcase_Search">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

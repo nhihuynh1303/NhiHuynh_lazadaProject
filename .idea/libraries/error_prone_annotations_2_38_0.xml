@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="error_prone_annotations-2.38.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/error_prone_annotations-2.38.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/failureaccess-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/guava-33.4.8-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/j2objc-annotations-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/jspecify-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

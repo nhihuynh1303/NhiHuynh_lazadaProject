@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="opentelemetry-api-1.50.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-api-1.50.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-context-1.50.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-exporter-logging-1.50.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-sdk-1.50.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-sdk-common-1.50.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-sdk-extension-autoconfigure-1.50.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-sdk-logs-1.50.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-sdk-metrics-1.50.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/opentelemetry-sdk-trace-1.50.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
