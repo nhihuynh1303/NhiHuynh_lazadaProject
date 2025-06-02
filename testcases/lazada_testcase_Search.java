@@ -1,6 +1,4 @@
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -8,7 +6,6 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.io.File;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -113,9 +110,8 @@ public class lazada_testcase_Search extends BaseTest{
     // use to demo when creating new page object on the video recording, exp: LazMall page
     @Test
     public void TC_05_navigateLazMall(){
-        lazMallPage = searchPage.naviagteLazMall();
+        lazMallPage = searchPage.navigateLazMall();
         Assert.assertTrue(lazMallPage.verifyTheExampleText());
-
     }
 
     @AfterClass

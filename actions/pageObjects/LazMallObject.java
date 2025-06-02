@@ -7,6 +7,6 @@ public class LazMallObject extends BasePage {
     }
 
     public boolean verifyTheExampleText() {
-        return isElementDisplayed(driver, LazMallUI.verifyTextExample);
+        return isElementDisplayed(driver, LazMallUI.VERIFYTEXTEXAMPLE);
     }
 }
