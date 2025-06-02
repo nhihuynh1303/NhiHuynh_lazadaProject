@@ -85,4 +85,9 @@ public class SearchPageObject extends BasePage{
     public void exportItemNameToFile(String filePath, List<String> itemNames) {
         writeItemNamesToExcel(itemNames, filePath);
     }
+
+    public LazMallObject naviagteLazMall() {
+        clickToElement(driver, LazMallUI.LazMallMenu);
+        return PageGeneratorManager.getLazMall(driver);
+    }
 }

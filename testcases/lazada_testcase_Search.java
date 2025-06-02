@@ -16,6 +16,7 @@ public class lazada_testcase_Search extends BaseTest{
     private WebDriver driver;
     private HomePageObject homePage;
     private SearchPageObject searchPage;
+    private LazMallObject lazMallPage;
 
     private String keyWord = "Logitech Keyboard";
     private String minPrice = "150000";
@@ -66,7 +67,7 @@ public class lazada_testcase_Search extends BaseTest{
     }
 
     @Test
-    public void TC_02_selectLowPriceToHigh(){
+    public void TC_03_selectLowPriceToHigh(){
         // select value from selectbox
         searchPage.scrollToSortBySelecbox();
         searchPage.clickToSortBySelectBox();
@@ -84,8 +85,8 @@ public class lazada_testcase_Search extends BaseTest{
     }
 
     @Test
-    public void TC_03_getItemName(){
-        //searchPage.listAllItemProductName(); -> use it to check Item Names on console
+    public void TC_04_getItemName(){
+        //searchPage.listAllItemProductName(); -> use it to print Item Names page 1 on console
 
         searchPage.saveItemNameToArray(filePath, itemNames); // save Item Names page 1 to Array
 
@@ -93,20 +94,28 @@ public class lazada_testcase_Search extends BaseTest{
         searchPage.scrollToNavigationPageBar();
         searchPage.switchToPage("2");
 
-        //searchPage.listAllItemProductName(); -> use it to check Item Names on console
+        //searchPage.listAllItemProductName(); -> use it to print Item Names page 2 on console
         searchPage.saveItemNameToArray(filePath, itemNames); // save Item Names page 2 to Array
 
         // swtich to Page 3 to get item names
         searchPage.scrollToNavigationPageBar();
         searchPage.switchToPage("3");
 
-        //searchPage.listAllItemProductName(); -> use it to check Item Names on console
+        //searchPage.listAllItemProductName(); -> use it to print Item Names page 3 on console
 
         searchPage.saveItemNameToArray(filePath, itemNames); // save Item Names page 3 to Array
 
         // System.out.println("Array name file size: "+itemNames.size());  -> use it to check Array size
 
         searchPage.exportItemNameToFile(filePath, itemNames);
+    }
+
+    // use to demo when creating new page object on the video recording, exp: LazMall page
+    @Test
+    public void TC_05_navigateLazMall(){
+        lazMallPage = searchPage.naviagteLazMall();
+        Assert.assertTrue(lazMallPage.verifyTheExampleText());
+
     }
 
     @AfterClass

@@ -11,12 +11,12 @@
     </test>
 
 
-<!--    <test verbose="2" preserve-order="true"-->
-<!--          name="Run On Chrome browser">-->
-<!--        <parameter name="browser" value="Chrome"></parameter>-->
-<!--        <classes>-->
-<!--            <class name="lazada_testcase_Search">-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test verbose="2" preserve-order="true"
+          name="Run On Chrome browser">
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="lazada_testcase_Search">
+            </class>
+        </classes>
+    </test>
 </suite>

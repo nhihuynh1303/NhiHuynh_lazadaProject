@@ -7,4 +7,8 @@ public class PageGeneratorManager {
     public static SearchPageObject getSearchPage (WebDriver driver){
         return new SearchPageObject(driver);
     }
+    public static LazMallObject getLazMall (WebDriver driver){
+        return new LazMallObject(driver);
+    }
+
 }
